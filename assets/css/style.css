@@ -38,6 +38,20 @@ header a:hover {
   font-weight: 400;
   border-radius: 999px;
 }
+.seciton-heading{
+  color: #10375c;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+.section-desc{
+  margin-top: 18px;
+    color: #575f66;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67;
+}
 /*============= Header ================ */
 .header {
   background: var(--color);
@@ -89,3 +103,137 @@ header a:hover {
   font-size: 1.6rem;
 }
 /*============= Hero ================ */
+.hero{
+  margin-top: 150px;
+  display: flex;
+}
+.hero__content{
+  margin-top: 100px;
+width: 48%;
+}
+.hero__heading{
+color: #fff;
+font-size: 7rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.14;
+letter-spacing: -1.4px;
+}
+.hero__desc{
+  margin-top: 22px;
+    color: #c9d2da;
+    font-family: Sora;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67;
+}
+.hero__row{
+  margin-top: 38px;
+  display: flex;
+  align-items: center;
+  column-gap: 38px;
+}
+.hero__phone{   
+   color: #c9d2da;
+   font-family: Sora;
+}
+
+
+.hero__media{
+  margin-left: 65px;
+}
+
+
+
+.hero .hero__imges{
+  display: flex;
+  position: relative;
+ 
+}
+.hero__img-large{
+  height: 540px;
+  width: 330px;
+  object-fit: cover;
+}
+.hero__img-small{
+  height: 410px;
+  width: 210px;
+  object-fit: cover;
+  position: absolute;
+  left: 330px;
+  top: 50px;
+
+}
+/* ===========SERVICES======== */
+.services{
+padding: 170px 0;
+}
+.services__desc,
+.services__heading{
+text-align: center;
+}
+.services__desc{
+  width: 468px;
+  margin: 18px auto;
+}
+.services-row{
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.services__img{
+  width: 48%;
+  height: 570px;
+  width: 570px;
+  object-fit: cover;
+  border-radius: 12px;
+  background: #fff;
+}
+.services-item{
+  display: flex;
+  align-items: center;
+  width: 470px;
+  padding: 21px;
+}
+.services-item .services-item__icon:hover{
+  color: #fff;
+  background: var(--color);
+
+}
+.services-item:hover {
+  position: relative;
+  box-shadow: 0px 14px 28px 0 rgba(0, 0, 0, 0.09);
+}
+.services__list .services-item:first-child{
+  margin-top: 20px;
+
+}
+.services-item__icon{
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background: #eff6fd;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: 19px;
+  transition: 0.25s;
+}
+.services-item__heading{
+  color: #10375c;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: normal;
+
+}
+.services-item__desc{
+  margin-top: 8px;
+  color: #575f66;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75;}
+  .services__btn{
+    margin-top: 30px;
+  }
