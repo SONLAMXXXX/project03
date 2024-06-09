@@ -1,0 +1,90 @@
+/*============= Thuộc tính áp dụng lên toàn bộ trang================ */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Sora", sans-serif;
+  font-size: 1.6rem;
+}
+/*============= thuộc tính chung ================ */
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 50px);
+  /* căn giữa  */
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+:root {
+  --color: #0f375c;
+}
+header a:hover {
+  text-shadow: 1px 0 0 currentColor;
+  color: #fff;
+}
+.btn {
+  display: inline-block;
+  min-width: 205px;
+  line-height: 60px;
+  background: #127cdf;
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 999px;
+}
+/*============= Header ================ */
+.header {
+  background: var(--color);
+  padding: 30px;
+  z-index: 1;
+  min-height: 100vh;
+}
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar__list {
+  display: flex;
+}
+.header__action--login,
+.navbar__link {
+  padding: 8px 21px;
+  color: #c9d2da;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.75;
+}
+.header__action--login {
+  color: #c9d2da;
+  font-size: 1.8rem;
+  padding: 8px 25px;
+}
+.navbar__link:hover,
+.navbar__link-active {
+  text-shadow: 1px 0 0 currentColor;
+  color: #fff;
+}
+.navbar__item .navbar__link-active::before {
+  content: "";
+  height: 6px;
+  width: 6px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #fff;
+  position: relative;
+  right: 8px;
+  top: -3px;
+}
+.header__action--signup {
+  min-width: 144px;
+  line-height: 44px;
+  font-size: 1.6rem;
+}
