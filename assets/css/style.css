@@ -44,7 +44,10 @@ header a:hover {
   font-style: normal;
   font-weight: 400;
   border-radius: 999px;
+  position: relative;
+  /* transition: 0.5s; */
 }
+
 .section-heading{
   color: #10375c;
   font-size: 5rem;
@@ -194,6 +197,29 @@ letter-spacing: -1.4px;
   left: 330px;
   top: 50px;
 
+}
+/*_______________________________________________________* test hover _______________________________________________________*/
+.btn__hero--1{
+  position: relative;
+  z-index: 1;
+}
+.btn__hero{
+  position: relative;
+  overflow: hidden;
+}
+.btn::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  background: #eae9bf; ;
+  transition: width 0.7s linear ;
+}
+.btn__hero:hover::after{
+  left: 0;
+  width: 100%;
 }
 /* ===========SERVICES======== */
 .services{
