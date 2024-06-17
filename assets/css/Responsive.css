@@ -215,7 +215,7 @@ align-items: center;
     }
     .menu-drawer{
         padding: 020px;
-        inset: 0 20% 0 0;
+        inset: 0 70% 0 0;
     }
     .login-mobile {
         border-top: 1.6px solid #d3cece;
@@ -223,12 +223,12 @@ align-items: center;
     .hero__img-small {
         display: none;
     }
-   
- .hero__img-large{
-    max-width: 100%;
+   .hero__img-large{
+    width: 100%;
     height: auto;
+   }
     
-    }
+    
     .hero__heading{
         font-size: 3rem;
     }
