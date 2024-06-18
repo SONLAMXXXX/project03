@@ -285,7 +285,9 @@ align-items: center;
   .footer__top{
     grid-template-columns: 1fr;
   }
-  footer {
-    padding: 0;
+ 
+.footer-form {
+  
+    margin-bottom: 15px;
 }
-
+}

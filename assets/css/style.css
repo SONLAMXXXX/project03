@@ -659,7 +659,7 @@ white-space: nowrap;
 .footer-form{
   display: flex;
   column-gap: 12px;
-  margin-top: 10px;
+margin: 10px 0 15px 0;
 }
 .footer-form__input{
   width: 212px;
